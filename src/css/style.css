@@ -23,5 +23,20 @@ a {
 
 body {
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+}
+
+.cardboard {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-items: center;
+  font-size: 50px;
+}
+.number-bingo {
+  display: grid;
+  grid-template-columns: repeat(11, 50px);
+}
+
+.marked {
+  background-color: rgb(229, 129, 129);
 }
